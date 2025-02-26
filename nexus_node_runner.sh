@@ -49,6 +49,7 @@ setup_node() {
     
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     . "$HOME/.cargo/env"
+    . "$HOME/.cargo/env"
     rustup target add riscv32i-unknown-none-elf
     fix_protoc_error
     
